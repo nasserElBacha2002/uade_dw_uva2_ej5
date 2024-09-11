@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú horizontal */
+.menu {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+}
+
+.menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Ajustes para pantallas más pequeñas (tablet y móvil) */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
+/* Ajustes para pantallas pequeñas (móvil) */
+@media (max-width: 480px) {
+    .menu a {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+/* Estilos del contenido */
+.content {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+/* Estilos adicionales para el footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    color: #f4f4f4;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
